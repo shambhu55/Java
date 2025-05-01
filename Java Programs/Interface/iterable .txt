@@ -1,0 +1,171 @@
+iterable 
+- parent of collection interface
+- considered as super class
+- introduced methods iterator(), spliterator(), forEach(), etc
+- used to represent group of objet
+- introduced in java 1.5 v
+----------------------------------------
+
+collection
+- interface located in java.util
+- parent of List, queue, hash interfaces
+- child of iterable
+- introduced methods like add(), addAll(), remove(), removeAll(), contains(), containsAll(), etc
+- introduced in java 1.2 v
+-----------------------------------------------
+
+
+LinkedList
+-----------
+-java.util
+-child of list
+-types singly, doubly, circular
+-allow null, duplicates, heterogeous
+-maintain order
+-initial capacity 0
+-best choice-insertion,deletion
+-worst choice-display
+-java 1.2
+
+import java.util.LinkedList;
+public class Demo3
+{
+    public static void main( String[] args )
+    {
+    	LinkedList list = new LinkedList();
+     	list.add(10);
+    	list.add(20);
+    	list.add(30);
+    	list.add(50);
+    	list.add(60);
+		list.add(70);
+        System.out.println(list);
+		list.remove(1);
+		System.out.println(list);
+    }
+}
+
+--------------------------------------------------
+
+Vector
+--------
+-(Same as ArrayList(1.5x), mem increase with 2x)
+
+import java.util.Vector;
+public class Demo3
+{
+    public static void main( String[] args )
+    {
+    	Vector v = new Vector();
+		v.add(null);
+		v.add(1);
+		v.add(1);
+		v.add("ABC");
+        System.out.println(v);	
+    }
+}
+
+---------------------------------
+
+Stack
+-------
+-child of vector
+-used to represent grp of obj in LIFO order
+
+import java.util.Stack;
+
+public class Demo3
+{
+    public static void main( String[] args )
+    {
+    	Stack s = new Stack<>();
+		
+	s.add(10);
+	s.add(20);
+	s.add("ABC");
+	s.add('s');
+        System.out.println(s);		
+    }
+}
+
+------------------------------------
+
+HashSet
+--------
+- java.util
+- child of set
+- not allow- null, duplicates
+- allow- heterogeneous
+- order not maintained
+- initial size is 16 and 0.75 load factor
+- incrases capacity by 2x
+- best choice- searching and doesn't maintain order
+- non synchronized and thread unsafe
+- to make thread safe, use synchronizedSet()
+- introduced java 1.2
+
+package com.demo;
+import java.util.HashSet;
+public class Demo3
+{
+    public static void main( String[] args )
+    {
+    	HashSet s = new HashSet();		
+		s.add(10);
+		s.add(20);
+		s.add("ABC");
+		s.add('s');
+		s.add(null);
+        System.out.println(s);	
+    }
+}
+-------------------------------------------------------
+LinkedHashSet
+--------------
+- duplicate not allowd as it use hashtable
+- uses linkedList(order) and Hashtable(duplicate).
+- initial size 16, increase 2x wth lf .75
+- thread unsafe or non synchronized
+- best choice- search and maintain order
+- java 1.4
+
+
+import java.util.LinkedHashSet;
+public class Demo3
+{
+    public static void main( String[] args )
+    {
+	LinkedHashSet s = new LinkedHashSet();
+
+	s.add(20);
+	s.add(50);
+	s.add(1);
+	s.add(24);
+	s.add(30);
+	s.add("abc");
+	s.add(null);
+	System.out.println(s);
+    }
+}
+----------------------------------------------------- 
+
+TreeSet
+--------
+default cap 0
+
+
+import java.util.TreeSet;
+public class Demo3
+{
+    public static void main( String[] args )
+    {
+	TreeSet s = new TreeSet();
+	s.add(10);
+	s.add(20);
+	s.add(5);
+	s.add(7);
+	System.out.println(s);
+    }
+}
+
+
