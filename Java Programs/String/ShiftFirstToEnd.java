@@ -1,3 +1,4 @@
+package String;
 /*
 WAP to shift First character of String at the end of String.
 i/p : "India"

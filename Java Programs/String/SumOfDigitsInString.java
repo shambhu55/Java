@@ -1,3 +1,4 @@
+package String;
 /*
 WAP to count Sum of Digits in the String.
 i/p : welcome to 2025

@@ -1,3 +1,4 @@
+package String;
 /*
 WAP to reverse each word from the String.
 i/p : Hello I am Java Debveloper.

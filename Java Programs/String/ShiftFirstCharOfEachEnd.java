@@ -1,3 +1,5 @@
+
+package String;
 /*
 WAP to Shift First Char Of Each word at End of the String.
 i/p : Hello I am Java Debveloper.

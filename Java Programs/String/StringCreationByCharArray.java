@@ -1,3 +1,4 @@
+package String;
 /*
 STRING CREATION : 
 - By using char array[].

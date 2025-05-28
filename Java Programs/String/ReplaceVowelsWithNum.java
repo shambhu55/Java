@@ -1,3 +1,4 @@
+package String;
 /*
 
 WAP to replace vowels with 1 and 2 alternately.

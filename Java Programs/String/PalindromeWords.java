@@ -1,3 +1,5 @@
+
+package String;
 /*
 WAP to find all the palindrome words from string.
 i/p : where is nayan and naman karan looking gor him

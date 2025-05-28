@@ -1,3 +1,5 @@
+
+package String;
 /*
 WAP to sort each word lexicographically from string. 
 i/p : hello i am java developer

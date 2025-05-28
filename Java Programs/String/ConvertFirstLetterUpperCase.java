@@ -1,3 +1,4 @@
+package String;
 /*
 WAP to convert First letter uppercase of each word.
 i/p : hello i am java developer

@@ -1,3 +1,4 @@
+package String;
 /*
 i/p : never odd or even
 o/p : Palindrome String.

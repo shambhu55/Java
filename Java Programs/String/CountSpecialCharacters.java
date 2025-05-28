@@ -1,3 +1,4 @@
+package String;
 /*
 WAP to count special characters from the strings.
 i/o : hello naman,,. where is nikhil?? karthik is lookking for him!!!

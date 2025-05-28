@@ -1,3 +1,5 @@
+
+package String;
 /*
 WAP to convert uppercase of vowels of each letter of the word.
 i/p : hello i am java developer
