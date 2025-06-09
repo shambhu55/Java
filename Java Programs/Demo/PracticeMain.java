@@ -1,5 +1,6 @@
 public class PracticeMain {
     public static void main(String[] args) {
+        
         Practice p = new Practice();
 
         //reverse num
@@ -13,6 +14,9 @@ public class PracticeMain {
         System.out.println("add 3 Num :"+p.add(10,20,30));
 
         // constructor
-        
+        Practice p1 = new Practice();
+        Practice p2 = new Practice(60,70);
+        p1.display();   // def
+        p2.display();   // Param
     }
 }

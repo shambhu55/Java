@@ -31,7 +31,28 @@ class Practice{
 
 
         // Default const : called during obj creation
-        Practice(){
-            System.out.println("Constructor called");
+        int p, q;
+        static int r;
+        void display(){
+            System.out.println("p="+p+" q="+q+" r="+r);
+        }
+        
+        Practice(){ // def
+            p=10;
+            q=20;
+            r=300;
+            System.out.println("Def Constructor called");
+        }
+
+        Practice(int p, int q){
+            this.p=p;   // para
+            this.q=q;
+            System.out.println("Para Constructor called");
+        }
+        {
+            p=1000;
+            q=2000;
+            r=3000;
+            System.out.println("INSTANCE BLOCK called");
         }
 }

@@ -1,1 +1,1 @@
-i
+Practice.display();
