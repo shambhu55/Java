@@ -20,5 +20,6 @@ public class HashSetExample {
         set.add(55);
 
         System.out.println(set);
+        
     }
 }
