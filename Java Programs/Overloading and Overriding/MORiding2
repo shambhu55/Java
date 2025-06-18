@@ -1,0 +1,5 @@
+public class MORiding2 extends MORiding1 {
+    void m1() {
+        System.out.println("m1 of MORiding2");
+    }
+}

@@ -18,5 +18,16 @@ public class PracticeMain {
         Practice p2 = new Practice(60,70);
         p1.display();   // def
         p2.display();   // Param
+
+
+        // Object 
+        String s1 = "ABC";
+        String s2 = "ABC";
+        String s3 = new String("ABC");
+        System.out.println(s1==s2);     //true
+        System.out.println(s1.equals(s2));      //true
+
+        System.out.println(s1==s3);     //false (String Constant pool)
+        System.out.println(s1.equals(s3));      //true
     }
 }
