@@ -1,3 +1,13 @@
+// no duplicate, no Null, no order, Homogeneous
+// Sorted Order
+// java 1.2
+// implemented by Navigeable set
+// Non Synchronised
+// uses compareTo() method internally to sort
+// init capacity 0
+
+
+
 import java.util.TreeSet;
 
 public class TreeSetExample {
