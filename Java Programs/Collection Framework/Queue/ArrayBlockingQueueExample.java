@@ -18,7 +18,7 @@ public class ArrayBlockingQueueExample {
         q.add("a");
         q.add(true);
         q.add("Array");
-
+        q.add("Array");
         
 
         System.out.println("\n"+q);

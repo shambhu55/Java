@@ -18,7 +18,7 @@ public class SynchronousQueueEx {
         // Consumer
         Thread consumer = new Thread(() -> {
             try {
-                Thread.sleep(2000); // wait before consuming
+                Thread.sleep(3000); // wait before consuming
                 int value = queue.take();
                 System.out.println("Consumed: " + value);
             } catch (InterruptedException e) {
